@@ -4,12 +4,13 @@
   "description": "Perl language support in Atom",
   "engines": {
     "atom": "*",
-    "node": "*"
+    "node": "*",
+    "chevron": "*"
   },
   "homepage": "http://atom.github.io/language-perl",
   "repository": {
     "type": "git",
-    "url": "https://github.com/atom/language-perl.git"
+    "url": "https://github.com/builtbygio/language-perl.git"
   },
   "license": "MIT",
   "bugs": {

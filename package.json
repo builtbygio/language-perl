@@ -1,7 +1,10 @@
 {
   "name": "language-perl",
-  "version": "0.38.1",
-  "description": "Perl language support in Atom",
+  "version": "0.39.0",
+  "description": "Perl language support in Chevron",
+  "keywords": [
+    "tree-sitter"
+  ],
   "engines": {
     "atom": "*",
     "node": "*",
@@ -14,7 +17,10 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/atom/language-perl/issues"
+    "url": "https://github.com/builtbygio/chevron/issues"
+  },
+  "dependencies": {
+    "tree-sitter-perl": "1.2.1"
   },
   "devDependencies": {
     "coffeelint": "^1.10.1"

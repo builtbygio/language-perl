@@ -1,8 +1,14 @@
 # language-perl (Chevron)
 
-TextMate-only bundled grammar (no tree-sitter). Owned so the pin is not
-an archived `atom/*` remote.
+Perl highlighter for Chevron. Tree-sitter is the default for
+`source.perl` (`tree-sitter-perl@1.2.1` via
+`grammars/tree-sitter-perl.json`). The addon is ESM with top-level
+await; Chevron loads it through `load-tree-sitter-language.js`
+(`node-gyp-build`). No npm prebuilds — bootstrap rebuilds the N-API
+addon.
 
-Chevron loads this via `packageDependencies`. Do not add a tree-sitter
-grammar here without updating `src/load-tree-sitter-language.js` and
-the official `tree-sitter@0.25` contract.
+Perl 6 / Raku (`source.perl6`, `grammars/perl 6.cson`) stays
+TextMate-only. The TextMate `grammars/perl.cson` stays as the fallback.
+
+Owned so the pin is not an archived `atom/*` remote.
+Chevron loads this via `packageDependencies`.

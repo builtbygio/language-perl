@@ -1,6 +1,6 @@
 {
   "name": "language-perl",
-  "version": "0.39.0",
+  "version": "0.40.0",
   "description": "Perl language support in Chevron",
   "keywords": [
     "tree-sitter"
